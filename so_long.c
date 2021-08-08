@@ -6,7 +6,7 @@
 /*   By: dpants <dpants@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/30 14:27:42 by dpants            #+#    #+#             */
-/*   Updated: 2021/08/05 19:30:06 by dpants           ###   ########.fr       */
+/*   Updated: 2021/08/08 18:37:41 by dpants           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,5 +63,4 @@ int	main(int argc, char **argv)
 	mlx_loop_hook(config.window.mlx, draw_map, &config);
 	mlx_loop(config.window.mlx);
 	return (0);
-	pause();
 }
